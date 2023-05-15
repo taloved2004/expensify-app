@@ -1,0 +1,28 @@
+.button{
+    background: $light-blue;
+    font-size: $font-size-large;
+    font-weight: 300;
+    padding: $s-size;
+    color: white;
+    border: none;
+    line-height:1;
+    display:inline-block;
+    text-decoration: none;
+}
+
+.button--cancel{
+    background-color: gray;
+    margin-left: $s-size;
+}
+
+.button--link{
+    background:none;
+    color: white;
+    border: none;
+}
+
+.button--secondery{
+    
+    background:darken($gray,15%);
+    margin-bottom: $l-size;
+}

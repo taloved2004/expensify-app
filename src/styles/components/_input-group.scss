@@ -1,0 +1,31 @@
+.input-group-1{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: $m-size;
+    @media (min-width:$desktop-breakpoint) {
+        display: flex;
+        margin-bottom: $l-size;
+        flex-direction: row;
+    }
+}
+
+.input-group-2{
+    @extend .input-group-1;
+    @media (max-width:$desktop-breakpoint)  {
+            margin-top: 0;
+       }
+}
+
+.input-group__title{
+    text-decoration: underline;
+    font-weight: 700;
+    //padding: $s-size;
+}
+
+.input-group__item{
+    margin-bottom: $s-size;
+    @media (min-width:$desktop-breakpoint) {
+        margin:0 $s-size 0 0;
+    }
+}
+
